@@ -1,0 +1,164 @@
+:root {
+    --primary--color: #151515;
+    --secondary-color: #FFFFFF;
+    --tertiary-color: #F07900;
+
+}
+
+/* * {
+    border: 2px white solid;
+} */
+
+.background-black {
+    height: 440vh;
+    background: #151515;
+
+}
+
+.orange-btn {
+    border-radius: 23px;
+    background: var(--tertiary-color);
+    width: 150.235px;
+    height: 40px;
+    flex-shrink: 0;
+    color: var(--secondary-color);
+}
+
+.orange-btn-lg {
+    border-radius: 23px;
+    background: var(--tertiary-color);
+    width: 271px;
+    height: 55px;
+    flex-shrink: 0;
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.hero-h {
+    font-family: 'Roboto', sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--secondary-color);
+}
+
+.hero-p {
+    color: var(--secondary-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.hero-hashtag {
+    color: #F07900;
+    font-family: Roboto;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card-web {
+    width: 1600px;
+    height: 425px;
+    border-radius: 11px;
+    background: rgba(255, 255, 255, 0.85);
+}
+
+.card-top {
+    width: 320px;
+    height: 166px;
+    background: #F07900;
+    border-radius: 11px 11px 0px 0px;
+}
+
+.card-main {
+    width: 320px;
+    height: 440px;
+    flex-shrink: 0;
+    background: #FFF;
+    border-radius: 0px 0px 11px 11px;
+}
+
+.list-feature {
+    border-bottom: 1px solid rgb(0, 0, 0);
+
+}
+
+.card-top-lg {
+    width: 450px;
+    height: 166px;
+    background: #F07900;
+    border-radius: 11px 11px 0px 0px;
+}
+
+.card-main-lg {
+    width: 450px;
+    height: 390px;
+    flex-shrink: 0;
+    background: #FFF;
+    border-radius: 0px 0px 11px 11px;
+}
+
+.card-web-lg {
+    width: 1600px;
+    height: 1100px;
+    border-radius: 11px;
+    background: var(--secondary-color);
+}
+
+.box-dull {
+    width: 667px;
+    height: 220px;
+    border-radius: 20px;
+    border: 5px solid #F07900;
+
+}
+
+.background-white {
+    height: 1831px;
+    flex-shrink: 0;
+    background-color: #FFFFFF;
+    margin-top: 200px;
+}
+
+.card-review {
+    width: 632px;
+    height: 532px;
+}
+
+.btn-view {
+    width: 352px;
+    height: 89px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 3px solid #F07900;
+    background: #FFF;
+    color: #F07900;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    padding: 15px 30px 15px 30px;
+}
+
+.background-orange{
+    background: #F8A145;
+    height: 300px;
+}
+
+.button-contact{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 24px;
+    padding: 20px;
+}
