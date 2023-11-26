@@ -14,9 +14,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ms-4">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand ms-3" href="#">
                 <img src="{{ asset('assets/logo-qw-light.png') }}" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -524,24 +524,63 @@
         <div class="background-orange">
             <div class="row">
                 <div class="col">
-                    <h1 class="text-center">Kontak Kami</h1>
+                    <h1 class="text-center hero-h text-black mt-4">Kontak Kami</h1>
                 </div>
             </div>
+            
             <div class="row">
                 <div class="col">
-                    <h1 class="text-center">Kami siap membantu anda 24 Jam</h1>
+                    <h1 class="text-center hero-h text-black fs-4 mt-3">Kami siap membantu anda 24 Jam</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col d-flex justify-content-center">
-                    <div class="button-contact">
-                        <img src="{{ asset('assets/phone-solid (1).svg') }}" alt="" width="50px">
-                        <a class="text-decoration-none" href="">0804-1-808-888</a>
+                <div class="col d-flex justify-content-center mt-5">
+                    <div class="button-contact d-flex justify-content-center align-items-center me-2">
+                        <img src="{{ asset('assets/phone-solid (1).svg') }}" alt="" width="30px">
+                        <a class="text-decoration-none hero-p text-black ms-2" href="" style="font-weight: 400">0804-1-808-888</a>
                     </div>
                    
-                    <a href="">021 39708800</a>
-                    <a href="">+6281 7437 111 ( WhatsApp Only)</a>
-                    <a href="">info@qwords.com</a>
+                    <div class="button-contact d-flex justify-content-center align-items-center">
+                        <img src="{{ asset('assets/phone-solid (1).svg') }}" alt="" width="30px">
+                        <a class="text-decoration-none hero-p text-black ms-2" href="" style="font-weight: 400">021 39708800</a>
+                    </div>
+
+                    <div class="button-contact d-flex justify-content-center align-items-center ms-2">
+                        <img src="{{ asset('assets/whatsapp.svg') }}" width="30px" alt="">
+                        <a class="text-decoration-none hero-p text-black ms-2" href="" style="font-weight: 400">+6281 7437 111( WhatsApp Only )</a>
+                    </div>
+                    <div class="button-contact d-flex justify-content-center align-items-center ms-2">
+                        <img src="{{ asset('assets/envelope-solid.svg') }}" alt="" width="30px">
+                        <a class="text-decoration-none hero-p text-black ms-2" href="" style="font-weight: 400">info.qwords.com</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row mt-4">
+                <div class="col">
+                    <h1 class="text-center hero-h text-black mt-4">Kantor Kami</h1>
+                </div>
+                <div class="row mt-5 px-5">
+                    <div class="col-3 d-flex flex-column text-center">
+                        <h5 class="hero-hashtag text-black" style="font-size: 36px;">Kantor Surabaya</h5>
+                        <p class="hero-p text-black" style="font-size: 22px">Gedung Bursa Efek Indonesia Lt.10, Jl. Taman AIS Nasution No.21, Surabaya 60271 - Indonesia 031 30008800
+                        </p>
+                    </div>
+                    <div class="col-3 d-flex flex-column text-center">
+                        <h5 class="hero-hashtag text-black" style="font-size: 36px;">Kantor Yogyakarta</h5>
+                        <p class="hero-p text-black" style="font-size: 22px">Jl. Blotan no. 18 Kayen Wedomartani, Ngemplak, Sleman, Yogyakarta 55584 - Indonesia 0274 6058800
+                        </p>
+                    </div>
+                    <div class="col-3 d-flex flex-column text-center">
+                        <h5 class="hero-hashtag text-black" style="font-size: 36px;">Kantor Jakarta</h5>
+                        <p class="hero-p text-black" style="font-size: 22px">GGedung Cyber 1 Lantai 3, Jl.Kuningan Barat no.8, Jakarta 12710 - Indonesia 021 39708800
+                        </p>
+                    </div>
+                    <div class="col-3 d-flex flex-column text-center">
+                        <h5 class="hero-hashtag text-black" style="font-size: 36px;">Kantor Bandung</h5>
+                        <p class="hero-p text-black" style="font-size: 22px">Jl. Terusan Setra Indah I No.19, Sukagalih, Sukajadi, Bandung 40163 - Indonesia 022 30508800
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
