@@ -76,6 +76,21 @@
                         height="550px" style="transform: scaleX(-1)">
                 </div>
             </div>
+            <div class="row mx-5">
+                <div class="col-12 d-flex justify-content-center flex-column align-items-center">
+                    <h1 class="hero-hashtag text-center" style="color: #F07900; font-size:34px">Cari Nama Domainmu</h1>
+                    <p class="hero-p text-white text-center mx-5" style="font-size: 22px; width:50vw;">Nama Domain digunakan untuk mempermudah pengunjung menuju ke situs Anda. Pilih nama domain yang paling mencerminkan bisnis, produk, atau layanan Anda</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mt-2 d-flex justify-content-center">
+                    <input type="text" placeholder="Cari Nama Domain Anda" class="input-domain">
+                    <select name="" id="" class="input-domain" style="width: 138px" >
+                        <option value="">id</option>
+                    </select>
+                    <button type="submit" class="input-domain text-white submit-domain" style="background: #F07900; width:138px">Cari</button>
+                </div>
+            </div>
         </div>
 
         <div class="row d-flex justify-content-center mt-5">
@@ -520,11 +535,11 @@
                 </div>
             </div>
         </div>
-        
-        <div class="background-orange">
+
+        <div class="background-w">
             <div class="row">
                 <div class="col">
-                    <h1 class="text-center hero-h text-black mt-4">Kontak Kami</h1>
+                    <h1 class="text-center hero-h text-black" style="font-size: 44px">Kontak Kami</h1>
                 </div>
             </div>
             
@@ -534,55 +549,123 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col d-flex justify-content-center mt-5">
+                <div class="col d-flex justify-content-center mt-3">
                     <div class="button-contact d-flex justify-content-center align-items-center me-2">
                         <img src="{{ asset('assets/phone-solid (1).svg') }}" alt="" width="30px">
-                        <a class="text-decoration-none hero-p text-black ms-2" href="" style="font-weight: 400">0804-1-808-888</a>
+                        <a class="text-decoration-none hero-p ms-2 text-black" href="" style="font-weight: 400;">0804-1-808-888</a>
                     </div>
                    
                     <div class="button-contact d-flex justify-content-center align-items-center">
                         <img src="{{ asset('assets/phone-solid (1).svg') }}" alt="" width="30px">
-                        <a class="text-decoration-none hero-p text-black ms-2" href="" style="font-weight: 400">021 39708800</a>
+                        <a class="text-decoration-none hero-p ms-2 text-black" href="" style="font-weight: 400;">021 39708800</a>
                     </div>
 
                     <div class="button-contact d-flex justify-content-center align-items-center ms-2">
                         <img src="{{ asset('assets/whatsapp.svg') }}" width="30px" alt="">
-                        <a class="text-decoration-none hero-p text-black ms-2" href="" style="font-weight: 400">+6281 7437 111( WhatsApp Only )</a>
+                        <a class="text-decoration-none hero-p ms-2 text-black" href="" style="font-weight: 400;">+6281 7437 111( WhatsApp Only )</a>
                     </div>
                     <div class="button-contact d-flex justify-content-center align-items-center ms-2">
                         <img src="{{ asset('assets/envelope-solid.svg') }}" alt="" width="30px">
-                        <a class="text-decoration-none hero-p text-black ms-2" href="" style="font-weight: 400">info.qwords.com</a>
+                        <a class="text-decoration-none hero-p ms-2 text-black" href="" style="font-weight: 400;">info.qwords.com</a>
                     </div>
                 </div>
             </div>
-            <hr>
-            <div class="row mt-4">
+
+            <div class="row">
                 <div class="col">
-                    <h1 class="text-center hero-h text-black mt-4">Kantor Kami</h1>
+                    <h1 class="text-center hero-h text-black mt-5" style="font-size: 44px">Kantor Kami</h1>
                 </div>
                 <div class="row mt-5 px-5">
                     <div class="col-3 d-flex flex-column text-center">
                         <h5 class="hero-hashtag text-black" style="font-size: 36px;">Kantor Surabaya</h5>
-                        <p class="hero-p text-black" style="font-size: 22px">Gedung Bursa Efek Indonesia Lt.10, Jl. Taman AIS Nasution No.21, Surabaya 60271 - Indonesia 031 30008800
+                        <p class="hero-p text-black" style="font-size: 22px;font-weight:400;">Gedung Bursa Efek Indonesia Lt.10, Jl. Taman AIS Nasution No.21, Surabaya 60271 - Indonesia 031 30008800
                         </p>
                     </div>
                     <div class="col-3 d-flex flex-column text-center">
                         <h5 class="hero-hashtag text-black" style="font-size: 36px;">Kantor Yogyakarta</h5>
-                        <p class="hero-p text-black" style="font-size: 22px">Jl. Blotan no. 18 Kayen Wedomartani, Ngemplak, Sleman, Yogyakarta 55584 - Indonesia 0274 6058800
+                        <p class="hero-p text-black " style="font-size: 22px;font-weight:400;">Jl. Blotan no. 18 Kayen Wedomartani, Ngemplak, Sleman, Yogyakarta 55584 - Indonesia 0274 6058800
                         </p>
                     </div>
                     <div class="col-3 d-flex flex-column text-center">
                         <h5 class="hero-hashtag text-black" style="font-size: 36px;">Kantor Jakarta</h5>
-                        <p class="hero-p text-black" style="font-size: 22px">GGedung Cyber 1 Lantai 3, Jl.Kuningan Barat no.8, Jakarta 12710 - Indonesia 021 39708800
+                        <p class="hero-p text-black " style="font-size: 22px;font-weight:400;">GGedung Cyber 1 Lantai 3, Jl.Kuningan Barat no.8, Jakarta 12710 - Indonesia 021 39708800
                         </p>
                     </div>
                     <div class="col-3 d-flex flex-column text-center">
                         <h5 class="hero-hashtag text-black" style="font-size: 36px;">Kantor Bandung</h5>
-                        <p class="hero-p text-black" style="font-size: 22px">Jl. Terusan Setra Indah I No.19, Sukagalih, Sukajadi, Bandung 40163 - Indonesia 022 30508800
+                        <p class="hero-p text-black " style="font-size: 22px; font-weight:400;">Jl. Terusan Setra Indah I No.19, Sukagalih, Sukajadi, Bandung 40163 - Indonesia 022 30508800
                         </p>
                     </div>
                 </div>
             </div>
+
+            <footer>
+                <div class="row mx-5">
+                    <div class="col-3 mt-4">
+                        <img src="{{ asset('assets/qwords-black.png') }}" alt="" width="380px">
+                        <p class="head-footer">Tentang Kami</p>
+                        <div class="text-row list-footer">
+                            <p>Corporate Website</p>
+                            <p>Qwords History</p>
+                            <p>Qwords Difference</p>
+                            <p>Media Publication</p>
+                            <p>Network & Infrastucture</p>
+                            <p>Partner</p>
+                            <p>Career</p>
+                        </div>
+                    </div>
+                    <div class="col-3 ms-5 mt-5" style="width: 300px">
+                        <p class="head-footer">Layanan Lainnya</p>
+                        <div class="text-row list-footer">
+                            <p>Extended Support</p>
+                            <p>Manage The Box Server</p>
+                            <p>Flexi Main Domain</p>
+                            <p>FTP Backup</p>
+                            <p>Offline Backup</p>
+                            <p>Hosting Insurrance</p>
+                            <p>SoftwareLicense</p>
+                            <p>Digital Signature</p>
+                        </div>
+                    </div>
+                    <div class="col-3 mt-5">
+                        <p class="head-footer">Layanan Reseller</p>
+                        <div class="text-row list-footer">
+                            <p>Afiliasi</p>
+                            <p>Qwords VIP Partner</p>
+                            <p>Private Label Hosting Reseller</p>
+                            <p>Private Label Domain Reseller</p>
+                        </div>
+                        <p class="head-footer mt-5">Layanan Reseller</p>
+                        <div class="text-row list-footer">
+                            <p>Qwords Link-Q</p>
+                            <p>WhatsApp Link Generator</p>
+                            <p>Network Tools</p>
+                        </div>
+                    </div>
+                    <div class="col-3 mt-5">
+                        <p class="head-footer">Terdaftar di PSE, ICANN dan Partner Lainnya</p>
+                        <div class="text-row list-footer">
+                            <div class="logo-wrap">
+                                <img src="{{ asset('assets/code.webp') }}" alt="" width="90px">
+                                <img class="ms-2" src="{{ asset('assets/Archi.webp') }}" alt="" width="200px">
+                            </div>
+                            <div class="logo-wrap mt-4">
+                                <img src="{{ asset('assets/badge_litespeed.svg') }}" alt="" width="90px">
+                                <img class="ms-5" src="{{ asset('assets/badge_whmadmin.svg') }}" alt="" width="90px">
+                            </div>
+                            <div class="logo-wrap mt-4">
+                                <img src="{{ asset('assets/acronis-cloud-sales.webp') }}" alt="" width="90px">
+                                <img class="ms-5" src="{{ asset('assets/acronis-cloud-tech.webp') }}" alt="" width="90px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mt-5">
+                        <p class="text-bot text-center">Copyright © 2023 PT. Qwords International</p>
+                    </div>
+                </div>
+            </footer>
         </div>
         
 
