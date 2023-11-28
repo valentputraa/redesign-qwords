@@ -7,6 +7,7 @@
     <title>Qwords</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" href="{{ asset('assets/logo-qw-light.png') }}" />
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -79,16 +80,19 @@
             <div class="row mx-5">
                 <div class="col-12 d-flex justify-content-center flex-column align-items-center">
                     <h1 class="hero-hashtag text-center" style="color: #F07900; font-size:34px">Cari Nama Domainmu</h1>
-                    <p class="hero-p text-white text-center mx-5" style="font-size: 22px; width:50vw;">Nama Domain digunakan untuk mempermudah pengunjung menuju ke situs Anda. Pilih nama domain yang paling mencerminkan bisnis, produk, atau layanan Anda</p>
+                    <p class="hero-p text-white text-center mx-5" style="font-size: 22px; width:50vw;">Nama Domain
+                        digunakan untuk mempermudah pengunjung menuju ke situs Anda. Pilih nama domain yang paling
+                        mencerminkan bisnis, produk, atau layanan Anda</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 mt-2 d-flex justify-content-center">
                     <input type="text" placeholder="Cari Nama Domain Anda" class="input-domain">
-                    <select name="" id="" class="input-domain" style="width: 138px" >
+                    <select name="" id="" class="input-domain" style="width: 138px">
                         <option value="">id</option>
                     </select>
-                    <button type="submit" class="input-domain text-white submit-domain" style="background: #F07900; width:138px">Cari</button>
+                    <button type="submit" class="input-domain text-white submit-domain"
+                        style="background: #F07900; width:138px">Cari</button>
                 </div>
             </div>
         </div>
@@ -395,40 +399,49 @@
                     <div class="box-dull d-flex align-items-center">
                         <div class="box-text px-5 mt-3">
                             <h2 class="hero-h" style="color: #F07900; font-size:38px;">Perusahaan</h2>
-                            <p class="hero-p text-black" style="font-size: 20px;">Wujudkan website perusahaan profesional dan berkelas dnegan dukungan web hosting terbaik dan fitur berkelas</p>
+                            <p class="hero-p text-black" style="font-size: 20px;">Wujudkan website perusahaan
+                                profesional dan berkelas dnegan dukungan web hosting terbaik dan fitur berkelas</p>
                         </div>
-                            <img class="me-5" src="{{ asset('assets/Business Plan-amico 1.png') }}" width="168px" height="157px" alt="">
-            
+                        <img class="me-5" src="{{ asset('assets/Business Plan-amico 1.png') }}" width="168px"
+                            height="157px" alt="">
+
                     </div>
                 </div>
                 <div class="col-6 d-flex justify-content-center">
                     <div class="box-dull d-flex align-items-center">
                         <div class="box-text px-5 mt-3">
                             <h2 class="hero-h" style="color: #F07900; font-size:38px;">UMKM Dan Toko Online</h2>
-                            <p class="hero-p text-black" style="font-size: 20px;">Memberikan hosting terbaik untuk mendukung kebutuhan website pemasaran barang/jasa secara online</p>
+                            <p class="hero-p text-black" style="font-size: 20px;">Memberikan hosting terbaik untuk
+                                mendukung kebutuhan website pemasaran barang/jasa secara online</p>
                         </div>
-                            <img class="me-5" src="{{ asset('assets/Online shopping-pana 1.png') }}" width="168px" height="157px" alt="">
-            
+                        <img class="me-5" src="{{ asset('assets/Online shopping-pana 1.png') }}" width="168px"
+                            height="157px" alt="">
+
                     </div>
                 </div>
                 <div class="col-6 d-flex mt-3 justify-content-center">
                     <div class="box-dull d-flex align-items-center">
                         <div class="box-text px-5 mt-3">
                             <h2 class="hero-h" style="color: #F07900; font-size:38px;">Organisasi dan Komunitas</h2>
-                            <p class="hero-p text-black" style="font-size: 20px;">Bikin website organisasi atau komunitas anda dengan paket hosting unggulan yang ramah dikantong</p>
+                            <p class="hero-p text-black" style="font-size: 20px;">Bikin website organisasi atau
+                                komunitas anda dengan paket hosting unggulan yang ramah dikantong</p>
                         </div>
-                            <img class="me-5" src="{{ asset('assets/Good team-pana 1.png') }}" width="168px" height="157px" alt="">
-            
+                        <img class="me-5" src="{{ asset('assets/Good team-pana 1.png') }}" width="168px"
+                            height="157px" alt="">
+
                     </div>
                 </div>
                 <div class="col-6 d-flex mt-3 justify-content-center">
                     <div class="box-dull d-flex align-items-center">
                         <div class="box-text px-5 mt-3">
                             <h2 class="hero-h" style="color: #F07900; font-size:38px;">Sekolah</h2>
-                            <p class="hero-p text-black" style="font-size: 20px;">Infrastruktur web hosting terbaik untuk menunjang kegiatan  e-learning  dan didukung platform MOODLE khusus pembelajaran daring</p>
+                            <p class="hero-p text-black" style="font-size: 20px;">Infrastruktur web hosting terbaik
+                                untuk menunjang kegiatan e-learning dan didukung platform MOODLE khusus pembelajaran
+                                daring</p>
                         </div>
-                            <img class="me-5" src="{{ asset('assets/kids wearing masks at school-bro 1.png') }}" width="168px" height="157px" alt="">
-            
+                        <img class="me-5" src="{{ asset('assets/kids wearing masks at school-bro 1.png') }}"
+                            width="168px" height="157px" alt="">
+
                     </div>
                 </div>
             </div>
@@ -437,20 +450,23 @@
         <div class="background-white">
             <div class="row d-flex justify-content-center mb-5">
                 <div class="col-6 card-review p-5">
-                  
-                        <h2 class="hero-hashtag mt-5" style="font-size: 32px">TESTIMONIALS <<</h2>
-                        <h2 class="hero-hashtag text-black mt-3" style="font-size: 54px">Apa Kata Mereka ?</h2>
-                        <p class="hero-p text-black mt-4 mb-5">Apa kata mereka yang sudah menggunakan 
-                            layanan web hosting indnonesia dari Qwords? 
-                            Simak pengalaman mereka yang telah membuktikan sendiri fitur dari layanan kami.</p>
-                        <a href="#" class="btn-view mt-5">View All ></a>
-                 
+
+                    <h2 class="hero-hashtag mt-5" style="font-size: 32px">TESTIMONIALS <<< /h2>
+                            <h2 class="hero-hashtag text-black mt-3" style="font-size: 54px">Apa Kata Mereka ?</h2>
+                            <p class="hero-p text-black mt-4 mb-5">Apa kata mereka yang sudah menggunakan
+                                layanan web hosting indnonesia dari Qwords?
+                                Simak pengalaman mereka yang telah membuktikan sendiri fitur dari layanan kami.</p>
+                            <a href="#" class="btn-view mt-5">View All ></a>
+
                 </div>
                 <div class="col-6 card-review p-5" style="background:#F07900;">
                     <img src="{{ asset('assets/stars.png') }}" alt="" class="mt-5 w-50">
-                    <p class="hero-p text-white" style="margin-top: 82px; margin-bottom:52px;">Semoga Qwords dapat terus bertahan, sehingga kami dan masyarakat Indonesia bisa mendapatkan layanan yang terbaik dari Qwords</p>
+                    <p class="hero-p text-white" style="margin-top: 82px; margin-bottom:52px;">Semoga Qwords dapat
+                        terus bertahan, sehingga kami dan masyarakat Indonesia bisa mendapatkan layanan yang terbaik
+                        dari Qwords</p>
                     <div class="profil d-flex mt-5">
-                        <img src="{{ asset('assets/budi.png') }}" alt="" style="width: 128px; height: 128px;">
+                        <img src="{{ asset('assets/budi.png') }}" alt=""
+                            style="width: 128px; height: 128px;">
                         <div class="profil-text ms-4 text-white mt-2">
                             <h2 class="hero-hashtag text-white" style="font-size: 38px;">Budi Raharjo</h2>
                             <p class="hero-p">
@@ -460,22 +476,28 @@
                 </div>
                 <div class="col-6 card-review p-5" style="background: #353535;">
                     <img src="{{ asset('assets/stars.png') }}" alt="" class="mt-5 w-50">
-                    <p class="hero-p text-white" style="margin-top: 62px; margin-bottom:22px;">Pelayanan Qword sangat cepat dan responsif, sehingga tidak butuh waktu lama untuk membantu website kami kembali normal. Terbaik pokoknya, mah</p>
+                    <p class="hero-p text-white" style="margin-top: 62px; margin-bottom:22px;">Pelayanan Qword sangat
+                        cepat dan responsif, sehingga tidak butuh waktu lama untuk membantu website kami kembali normal.
+                        Terbaik pokoknya, mah</p>
                     <div class="profil d-flex mt-5">
-                        <img src="{{ asset('assets/kuns.png') }}" alt="" style="width: 128px; height: 128px;">
+                        <img src="{{ asset('assets/kuns.png') }}" alt=""
+                            style="width: 128px; height: 128px;">
                         <div class="profil-text ms-4 text-white">
                             <h2 class="hero-hashtag text-white" style="font-size: 38px;">Kuns Kurniawan
-                                </h2>
+                            </h2>
                             <p class="hero-p">
                                 PR Event Info BDG</p>
                         </div>
                     </div>
                 </div>
-                 <div class="col-6 card-review p-5" style="background: #F8A145;">
+                <div class="col-6 card-review p-5" style="background: #F8A145;">
                     <img src="{{ asset('assets/stars-2.png') }}" alt="" class="mt-5 w-50">
-                    <p class="hero-p text-black" style="margin-top: 52px; margin-bottom:22px;">Hingga saat ini pula, kami tidak pernah menemukan masalah yang berarti dari layanan yang diberikan Qwords. Layanan Customer Service syang sangat baik, membuat kami tidak ingin berpindah dari Qwords.</p>
+                    <p class="hero-p text-black" style="margin-top: 52px; margin-bottom:22px;">Hingga saat ini pula,
+                        kami tidak pernah menemukan masalah yang berarti dari layanan yang diberikan Qwords. Layanan
+                        Customer Service syang sangat baik, membuat kami tidak ingin berpindah dari Qwords.</p>
                     <div class="profil d-flex mt-4">
-                        <img src="{{ asset('assets/denden.png') }}" alt="" style="width: 128px; height: 128px;">
+                        <img src="{{ asset('assets/denden.png') }}" alt=""
+                            style="width: 128px; height: 128px;">
                         <div class="profil-text ms-4 text-white mt-2">
                             <h2 class="hero-hashtag text-black" style="font-size: 38px;">Denden Sofiudin</h2>
                             <p class="hero-p text-black">
@@ -488,7 +510,8 @@
 
             <div class="row">
                 <div class="col-12 mt-5">
-                    <h1 class="hero-h text-black text-center" style="font-size:44px;">Telah Dipercaya Oleh 45.000+ Pelanggan Aktif</h1>
+                    <h1 class="hero-h text-black text-center" style="font-size:44px;">Telah Dipercaya Oleh 45.000+
+                        Pelanggan Aktif</h1>
                 </div>
             </div>
             <div class="row px-5 mt-5">
@@ -542,7 +565,7 @@
                     <h1 class="text-center hero-h text-black" style="font-size: 44px">Kontak Kami</h1>
                 </div>
             </div>
-            
+
             <div class="row">
                 <div class="col">
                     <h1 class="text-center hero-h text-black fs-4 mt-3">Kami siap membantu anda 24 Jam</h1>
@@ -552,21 +575,25 @@
                 <div class="col d-flex justify-content-center mt-3">
                     <div class="button-contact d-flex justify-content-center align-items-center me-2">
                         <img src="{{ asset('assets/phone-solid (1).svg') }}" alt="" width="30px">
-                        <a class="text-decoration-none hero-p ms-2 text-black" href="" style="font-weight: 400;">0804-1-808-888</a>
+                        <a class="text-decoration-none hero-p ms-2 text-black" href=""
+                            style="font-weight: 400;">0804-1-808-888</a>
                     </div>
-                   
+
                     <div class="button-contact d-flex justify-content-center align-items-center">
                         <img src="{{ asset('assets/phone-solid (1).svg') }}" alt="" width="30px">
-                        <a class="text-decoration-none hero-p ms-2 text-black" href="" style="font-weight: 400;">021 39708800</a>
+                        <a class="text-decoration-none hero-p ms-2 text-black" href=""
+                            style="font-weight: 400;">021 39708800</a>
                     </div>
 
                     <div class="button-contact d-flex justify-content-center align-items-center ms-2">
                         <img src="{{ asset('assets/whatsapp.svg') }}" width="30px" alt="">
-                        <a class="text-decoration-none hero-p ms-2 text-black" href="" style="font-weight: 400;">+6281 7437 111( WhatsApp Only )</a>
+                        <a class="text-decoration-none hero-p ms-2 text-black" href=""
+                            style="font-weight: 400;">+6281 7437 111( WhatsApp Only )</a>
                     </div>
                     <div class="button-contact d-flex justify-content-center align-items-center ms-2">
                         <img src="{{ asset('assets/envelope-solid.svg') }}" alt="" width="30px">
-                        <a class="text-decoration-none hero-p ms-2 text-black" href="" style="font-weight: 400;">info.qwords.com</a>
+                        <a class="text-decoration-none hero-p ms-2 text-black" href=""
+                            style="font-weight: 400;">info.qwords.com</a>
                     </div>
                 </div>
             </div>
@@ -578,22 +605,26 @@
                 <div class="row mt-5 px-5">
                     <div class="col-3 d-flex flex-column text-center">
                         <h5 class="hero-hashtag text-black" style="font-size: 36px;">Kantor Surabaya</h5>
-                        <p class="hero-p text-black" style="font-size: 22px;font-weight:400;">Gedung Bursa Efek Indonesia Lt.10, Jl. Taman AIS Nasution No.21, Surabaya 60271 - Indonesia 031 30008800
+                        <p class="hero-p text-black" style="font-size: 22px;font-weight:400;">Gedung Bursa Efek
+                            Indonesia Lt.10, Jl. Taman AIS Nasution No.21, Surabaya 60271 - Indonesia 031 30008800
                         </p>
                     </div>
                     <div class="col-3 d-flex flex-column text-center">
                         <h5 class="hero-hashtag text-black" style="font-size: 36px;">Kantor Yogyakarta</h5>
-                        <p class="hero-p text-black " style="font-size: 22px;font-weight:400;">Jl. Blotan no. 18 Kayen Wedomartani, Ngemplak, Sleman, Yogyakarta 55584 - Indonesia 0274 6058800
+                        <p class="hero-p text-black " style="font-size: 22px;font-weight:400;">Jl. Blotan no. 18 Kayen
+                            Wedomartani, Ngemplak, Sleman, Yogyakarta 55584 - Indonesia 0274 6058800
                         </p>
                     </div>
                     <div class="col-3 d-flex flex-column text-center">
                         <h5 class="hero-hashtag text-black" style="font-size: 36px;">Kantor Jakarta</h5>
-                        <p class="hero-p text-black " style="font-size: 22px;font-weight:400;">GGedung Cyber 1 Lantai 3, Jl.Kuningan Barat no.8, Jakarta 12710 - Indonesia 021 39708800
+                        <p class="hero-p text-black " style="font-size: 22px;font-weight:400;">GGedung Cyber 1 Lantai
+                            3, Jl.Kuningan Barat no.8, Jakarta 12710 - Indonesia 021 39708800
                         </p>
                     </div>
                     <div class="col-3 d-flex flex-column text-center">
                         <h5 class="hero-hashtag text-black" style="font-size: 36px;">Kantor Bandung</h5>
-                        <p class="hero-p text-black " style="font-size: 22px; font-weight:400;">Jl. Terusan Setra Indah I No.19, Sukagalih, Sukajadi, Bandung 40163 - Indonesia 022 30508800
+                        <p class="hero-p text-black " style="font-size: 22px; font-weight:400;">Jl. Terusan Setra
+                            Indah I No.19, Sukagalih, Sukajadi, Bandung 40163 - Indonesia 022 30508800
                         </p>
                     </div>
                 </div>
@@ -647,15 +678,19 @@
                         <div class="text-row list-footer">
                             <div class="logo-wrap">
                                 <img src="{{ asset('assets/code.webp') }}" alt="" width="90px">
-                                <img class="ms-2" src="{{ asset('assets/Archi.webp') }}" alt="" width="200px">
+                                <img class="ms-2" src="{{ asset('assets/Archi.webp') }}" alt=""
+                                    width="200px">
                             </div>
                             <div class="logo-wrap mt-4">
                                 <img src="{{ asset('assets/badge_litespeed.svg') }}" alt="" width="90px">
-                                <img class="ms-5" src="{{ asset('assets/badge_whmadmin.svg') }}" alt="" width="90px">
+                                <img class="ms-5" src="{{ asset('assets/badge_whmadmin.svg') }}" alt=""
+                                    width="90px">
                             </div>
                             <div class="logo-wrap mt-4">
-                                <img src="{{ asset('assets/acronis-cloud-sales.webp') }}" alt="" width="90px">
-                                <img class="ms-5" src="{{ asset('assets/acronis-cloud-tech.webp') }}" alt="" width="90px">
+                                <img src="{{ asset('assets/acronis-cloud-sales.webp') }}" alt=""
+                                    width="90px">
+                                <img class="ms-5" src="{{ asset('assets/acronis-cloud-tech.webp') }}"
+                                    alt="" width="90px">
                             </div>
                         </div>
                     </div>
@@ -667,7 +702,7 @@
                 </div>
             </footer>
         </div>
-        
+
 
 
 
